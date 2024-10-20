@@ -1,0 +1,16 @@
+lst1=["Guava", "Mango", "Apple", "Banana"]
+print("the first element:", lst1[0])
+print("the last element:",  lst1[-1])
+print("the length of list:",  len(lst1))
+lst1.append("Orange")
+print(lst1)
+lst1.pop() 
+print(lst1)
+lst1.sort()
+print(lst1)
+lst1.reverse()
+print(lst1)
+lst1=lst1[:4]
+print(lst1)
+lst1.clear()
+print(lst1)
